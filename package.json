@@ -2,7 +2,12 @@
   "name": "top",
   "version": "0.2.3",
   "description": "Taobao Open API Client.",
-  "keywords": ["top", "taobao", "open api", "top client"],
+  "keywords": [
+    "top",
+    "taobao",
+    "open api",
+    "top client"
+  ],
   "author": "fengmk2 <fengmk2@gmail.com> (http://fengmk2.github.com/)",
   "homepage": "http://github.com/fengmk2/top",
   "main": "index.js",
@@ -12,13 +17,18 @@
   },
   "scripts": {
     "test": "make test-all",
-    "blanket": { "pattern": "top/lib" },
-    "travis-cov": { "threshold": 96 }
+    "blanket": {
+      "pattern": "top/lib"
+    },
+    "travis-cov": {
+      "threshold": 96
+    }
   },
   "dependencies": {
+    "agentkeepalive": "0.1.5",
+    "lodash": "^3.10.1",
     "urllib": ">=0.5.2",
-    "utility": ">=0.1.2",
-    "agentkeepalive": "0.1.5"
+    "utility": ">=0.1.2"
   },
   "devDependencies": {
     "mm": "*",
